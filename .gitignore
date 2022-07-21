@@ -1,0 +1,4 @@
+flaskenv
+app/static/uploads/*.mp4
+app/database/*.db
+*.pyc

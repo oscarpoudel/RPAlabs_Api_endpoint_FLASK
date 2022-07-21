@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Flask Webapp</title>
+  </head>
+  <body>
+    <center><u><h1>Api Endpoints in App</h1></u></center>
+    <span class="border"></span>
+    <div class="d-flex flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-sm-start">
+                <span style="padding:0px 50px  0 50px" >/upload</span>
+                <span>uses post method to upload video files. Validate video size, extension and length before upload and display response in form of json</span>
+            </div>
+        </div>
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-sm-start">
+                <span style="padding:0px 70px  0 50px" >/files</span>
+                <span>uses get method to show all the files upload in server. Show response of file list in json format. We can use parameter name or max_duration or max_size for filter ps we can still implement upload date and file type as filter parameters but in this case I did'nt implement it  </span>
+            </div>
+        </div>
+        <div class="p-2 bd-highlight">
+            <div class="d-flex justify-content-sm-start">
+                <span style="padding:0px 40px  0 50px" >/charge</span>
+                <span>uses post method with from elements: length size and type and validate parameters to provide response as charge in json </span>
+            </div>
+        </div>
+        <br/><br/>
+        <div class ='text-info' style="padding-left:50px">*Python code writted as pep8 standard</div>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
